@@ -24,7 +24,11 @@
             $location.path("/user/" + username);
         };
 
-        $scope.showmessage = function (msg) {
+        $scope.showMessage = function (msg) {
+            console.log(msg);
+        };
+
+        $scope.showInfo = function (msg) {
             console.log(msg);
         };
 
