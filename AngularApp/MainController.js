@@ -24,6 +24,10 @@
             $location.path("/user/" + username);
         };
 
+        $scope.showmessage = function (msg) {
+            console.log(msg);
+        };
+
         $scope.username = "Angular";
         $scope.countdown = 5;
         startCountdown();
