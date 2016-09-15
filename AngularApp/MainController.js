@@ -32,6 +32,10 @@
             console.log(msg);
         };
 
+        $scope.showStatus = function (msg) {
+            console.log(msg);
+        };
+
         $scope.username = "Angular";
         $scope.countdown = 5;
         startCountdown();
