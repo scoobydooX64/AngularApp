@@ -22,27 +22,7 @@
                 $scope.countdown = null;
             }
             $location.path("/user/" + username);
-        };
-
-        $scope.showMessage = function (msg) {
-            console.log(msg);
-        };
-
-        $scope.showInfo = function (msg) {
-            console.log(msg);
-        };
-
-        $scope.showProgress = function (msg) {
-            console.log(msg);
-        };
-
-        $scope.showStart = function (msg) {
-            console.log(msg);
-        };
-
-        $scope.showComplete = function (msg) {
-            console.log(msg);
-        };
+        };       
 
         $scope.username = "Angular";
         $scope.countdown = 5;
